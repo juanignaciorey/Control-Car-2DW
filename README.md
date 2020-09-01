@@ -2,12 +2,8 @@
 Un control para el auto 2DW con puente dobleH 'HC-05' y con sensor ultrasonico HR-04. 
 
 El proyecto consta de dos partes:
-- Una aplicación hecha en react para controlarlo via Bluetooth. 
+- Una aplicación hecha en [React-Native](#) para controlarlo via Bluetooth. 
 - El [Control-Car-2DW](#) software montado en la placa Arduino UNO R3
-
-:Author: JuanIgnacioRey
-:Date: 14/12/2019
-:License: Public Domain
 
 ## Step 1: Installation 🚀
 
