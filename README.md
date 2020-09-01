@@ -1,16 +1,16 @@
 # Control-Car-2DW
 Un control para el auto 2DW con puente dobleH 'HC-05' y con sensor ultrasonico HR-04. 
 
-El proyecto consta de tres partes:
+El proyecto consta de dos partes:
 - Una aplicación hecha en react para controlarlo via Bluetooth. 
 - El [Control-Car-2DW](#) software montado en la placa Arduino UNO R3
-- Las conecciones del hardware
 
 :Author: JuanIgnacioRey
 :Date: 14/12/2019
 :License: Public Domain
 
-## Step 1: Installation
+## Step 1: Installation 🚀
+
 Please describe the steps to install this project.
 
 For example:
@@ -19,7 +19,7 @@ For example:
 2. Edit as you like
 3. Release to the World!
 
-## Step 2: Assemble the circuit
+## Step 2: Assemble the circuit 🔧
 
 Assemble the circuit following the diagram layout.png attached to the sketch
 
@@ -29,9 +29,7 @@ Upload the code contained in this sketch on to your board
 
 ### Folder structure
 '''
-
 Control-Car-2DW                => Arduino sketch folder
-'''
  .
  Assets
   ├── schematics.png                      => an image of the required schematics
@@ -40,8 +38,11 @@ Control-Car-2DW                => Arduino sketch folder
  README.md                                => this file
 '''
 
-=== License
-This project is released under a {License} License.
+## Construido con 🛠️
+
+* [Fritzing](https://fritzing.org/) - Herramienta para diagramar y diseñar el circuito
+* [Arduino](https://store.arduino.cc/usa/arduino-uno-rev3)
+* [Kit Car 2WD](https://candy-ho.com/producto/kit-para-armar-auto-inteligente-2wd-arduino-starter-kit-dvd/) - Kit usado
 
 === Contributing
 To contribute to this project please contact JuanIgnacioRey92 https://id.arduino.cc/JuanIgnacioRey92
