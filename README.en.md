@@ -63,7 +63,7 @@ B. Assemble the circuit following the diagram schematics.png attached to the ske
     └── README.en.md                      # this file
 
 
-## Bbuilt with 🛠️
+## Built with 🛠️
 
 * [Fritzing](https://fritzing.org/)
 * [Arduino](https://store.arduino.cc/usa/arduino-uno-rev3)
