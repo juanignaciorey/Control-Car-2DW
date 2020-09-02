@@ -1,9 +1,9 @@
 # Control-Car-2DW
 Un control para el auto 2WD con puente dobleH 'HC-05' y con sensor ultrasonico HR-04. 
 
-El proyecto consta de dos partes:
-- Una aplicación hecha en [React-Native](#) para controlarlo via Bluetooth. 
-- El [Control-Car-2DW](#) software montado en la placa Arduino UNO R3. (Del cual se encarga éste repositorio)
+_Consta de dos partes: Una aplicación hecha en [React-Native](#) para controlarlo via Bluetooth, y El [Control-Car-2DW](#) software montado en la placa Arduino UNO R3. (Del cual se encarga éste repositorio)_
+
+*Read this in other languages: [English](README.en.md), [Español](README.md).*
 
 ## Step 1: Load the code 🚀
 
@@ -27,27 +27,26 @@ B. Assemble the circuit following the diagram schematics.png attached to the ske
 
 ### Connections
 
-ARDUINO   L298D (Puente H)        
- 5          ENA
- 6          ENB
- 10         IN1
- 11         IN2
- 12         IN3
- 13         IN4
+| ARDUINO | L298D (Puente H) |
+| ------- | ------- |
+| 5  | ENA  |
+| 6  | ENB  |
+| 10 | IN1  |
+| 11 | IN2 |
+| 12 | IN3 |
+| 13 | IN4 |
  
- Conexion del Modulo Bluetooth HC-05 y el Arduino
- ARDUINO    Bluetooth HC-05
- 0 (RX)       TX
- 1 (TX)       RX
- 2           VCC
- GND          GND
+| ARDUINO | Bluetooth HC-05 |
+| 0  | TX  |
+| 1  | RX  |
+| 2  | VCC  |
+| GND  | GND  |
  
-Conexion Sensor Ultrasonido HC-SR04
-ARDUINO    Ultrasonido HC-SR04 
- 2            Echo
- 3            Trig
- 5V           VCC
- GND          Gnd
+| ARDUINO | Sensor Ultrasonido HC-SR04 |
+| 2  | Echo  |
+| 3  | Trig  |
+| 5V  | VCC  |
+| GND  | Gnd  |
  
 ### Folder structure
 '''
@@ -58,6 +57,7 @@ Control-Car-2DW                => Arduino sketch folder
   ├── layout.png                          => an image of the layout
  ControlCarro2DW_HC05_SR04.ino            => main Arduino file
  README.md                                => this file
+ README_EN.md                                => this file
 '''
 
 
