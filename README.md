@@ -50,17 +50,15 @@ B. Ademas se debe montar el circuito siguiendo el diagrama: schematics.png
 | GND  | Gnd  |
  
 ### Folder structure
-'''
-Control-Car-2DW                => Carpeta del sketch 
- .
- Assets
-  ├── schematics.png                      => una imagen del esquema de los componentes requeridos
-  ├── layout.png                          => una imagen del montaje de componentes
- ControlCarro2DW_HC05_SR04.ino            => Archivo Arduino
- README.md                                => Este archivo
- README_EN.md                             =>  "     "   en ingles
-'''
 
+    .
+    ├── Assets
+          └── schematics.png          # una imagen del esquema de los componentes requeridos
+          └── layout.png              # una imagen del montaje de componentes
+    ├── LICENSE
+    ├── ControlCarro2DW_HC05_SR04.ino     # una imagen del esquema de los componentes requeridos
+    ├── README.md                         # Este archivo
+    └── README.en.md                      # "     "   en ingles
 
 ## Construido con 🛠️
 
