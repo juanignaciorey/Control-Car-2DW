@@ -17,7 +17,12 @@ For example:
 
 ## Step 2: Assemble the circuit 🔧
 
-Assemble the circuit following the diagram layout.png attached to the sketch
+A. Se deben colocar los componentes como en la siguiente imagen:
+
+![Aquí la descripción de la imagen por si no carga](https://raw.githubusercontent.com/juanignaciorey/Control-Car-2WD/master/Assets/layout.png)
+
+B. Assemble the circuit following the diagram layout.png attached to the sketch
+![circuit-2wd-car](https://raw.githubusercontent.com/juanignaciorey/Control-Car-2WD/master/Assets/schematics.png)
 
 ## Step 3: Load the code
 
