@@ -52,16 +52,15 @@ B. Assemble the circuit following the diagram schematics.png attached to the ske
 | GND  | Gnd  |
  
 ### Folder structure
-'''
-Control-Car-2DW                => Arduino sketch folder
- .
- Assets
-  ├── schematics.png                      => an image of the required schematics
-  ├── layout.png                          => a picture of the component assembly
- ControlCarro2DW_HC05_SR04.ino            => main Arduino file
- README.md                                => Original language file
- README_EN.md                             => this file
-'''
+
+    .
+    ├── Assets
+          └── schematics.png              # an image of the required schematics
+          └── layout.png                  # a picture of the component assembly
+    ├── LICENSE
+    ├── ControlCarro2DW_HC05_SR04.ino     # main Arduino file
+    ├── README.md                         # Original language file
+    └── README.en.md                      # this file
 
 
 ## Bbuilt with 🛠️
