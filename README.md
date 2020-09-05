@@ -1,11 +1,11 @@
 # Control-Car-2DW
-Un control para el auto 2WD con puente dobleH 'HC-05' y con sensor ultrasonico HR-04. 
+Un control para el auto 2WD con puente dobleH, sensor bluetooth HC-05 y con sensor ultrasonico HR-04. 
 
 _Consta de dos partes: Una **[App hecha en React-Native](#)** para controlarlo via Bluetooth, y **el sketch [Control-Car-2DW](#)** del cual se encarga éste repositorio_
 
 *Read this in other languages: [English](README.en.md), [Español](README.md).*
 
-## Step 1: Carga el código en la placa 🚀
+## Paso 1: Carga el código en la placa 🚀
 
 Suba el sketch(ControlCarro2WD_HC05_SR04.ino) a su placa Arduino:
 
@@ -15,7 +15,7 @@ Suba el sketch(ControlCarro2WD_HC05_SR04.ino) a su placa Arduino:
 4. Presione el menu 'Herramientas' -> 'Puerto' -> Y seleccione su placa.
 5. Presione compilar y subir el codigo( tiene forma similar a una flecha =>).
 
-## Step 2: Armar el circuito! 🔧
+## Paso 2: Armar el circuito! 🔧
 
 A. Se deben colocar los componentes como en la siguiente imagen:
 
@@ -67,4 +67,4 @@ B. Ademas se debe montar el circuito siguiendo el diagrama: schematics.png
 * [Kit Car 2WD](https://candy-ho.com/producto/kit-para-armar-auto-inteligente-2wd-arduino-starter-kit-dvd/) - Kit usado
 
 ## Te interesa contribuir?
-Para contribuir a este proyecto por favor 
+Para contribuir a este proyecto por favor contactame juanignaciorey92@gmail.com
